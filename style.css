@@ -1,0 +1,290 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+ background-color: #fadde1;
+}
+
+#header{
+
+display: flex;
+}
+
+header .logo{
+
+position: relative;
+left: 30px;
+top: 25px ;
+
+}
+
+header .lista{
+position: absolute;
+right: 70px;
+display: flex;
+
+}
+
+header .lista li{
+  list-style: none;
+  padding: 30px ;  
+}
+
+header .lista li a {
+     
+    text-decoration: none;
+    font-family: PT serif;
+    color: rgb(66, 58, 58);
+    
+}
+
+
+main {
+
+    position: relative;
+    top: 200px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+margin-bottom: 400px;
+}
+
+.section2{
+margin-bottom: 400px;
+margin-right: 400px
+}
+
+
+.section3{
+margin-bottom: 400px;
+
+}
+
+h1{
+font-size: 60px;
+font-family: oleo script;
+color:rgb(66, 58, 58) ;
+}
+
+h2{
+    font-size: 40px;
+    font-family: oleo script;
+    margin-bottom: 40px;
+    color:rgb(66, 58, 58);
+}
+
+
+p{
+    font-family:PT serif;
+    color:rgb(66, 58, 58) ;
+}
+
+
+.section3 #tecnologias .htmlcss{
+
+    opacity: 0.5;
+    margin: 30px;
+}
+
+
+    
+   
+footer .footer h3{
+
+text-align: center;
+font-family: oleo script;
+color:rgb(66, 58, 58)  ;
+
+
+}
+
+footer .footer li {
+list-style: none;
+
+
+}
+
+footer .footer li a {
+    text-decoration: none;
+color:rgb(66, 58, 58)  ;
+
+
+}
+
+footer {
+
+    text-align: center;
+    position: relative;
+}
+
+
+main .section1 img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+}
+
+
+
+
+
+/*mediaqueries*/
+
+
+
+
+
+@media only screen and (max-width:  590px ) {
+    
+header .lista li a  {
+font-size: 10px;
+}
+
+main .texto .titulo{
+    font-size: 40px;
+}
+
+main .texto .presentacion1{
+
+    width: 300px;
+}
+
+.section2 .presentacion2{
+
+    width: 350px ;
+}
+
+.section2{
+    margin-bottom: 300px;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 440px )  {
+    
+header .lista li  {
+   padding: 20px;
+}
+header .logo{
+    width: 20px;
+    height: 20px;
+}
+
+main .texto .titulo{
+    font-size: 33px;
+}
+.section2 .presentacion2{
+
+    width: 300px ;
+}
+main{
+    position: relative;
+    left: 60px;
+    
+}
+h2{
+    font-size: 30px;
+}
+.section3 div{
+
+    width: 300px;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 370px )  {
+    
+    header .lista li  {
+       padding: 12px;
+    }
+
+    main .texto .titulo{
+        font-size: 30px;
+    }
+
+    main .texto .presentacion1{
+
+        width: 200px;
+    }
+
+
+
+    .section2 .presentacion2{
+    
+        width: 250px ;
+    }
+    main{
+        position: relative;
+        left: 50px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+    
+    .section3{
+        margin-bottom: 500px;
+  
+    }
+
+}
+
+
+@media only screen and (max-width:330px) {
+
+    header .lista li  {
+        padding: 8px;
+     }
+ 
+     main .texto .titulo{
+         font-size: 25px;
+     }
+
+
+     .section2 .presentacion2{
+     
+         width: 230px ;
+     }
+
+     main{
+         position: relative;
+         left: 40px;
+     }
+
+ 
+     h2{
+         font-size: 20px;
+     }
+     
+     .section3{
+         margin-bottom: 500px;
+   
+     }
+
+     .section1{
+         margin-bottom: 200px;
+     }
+
+    
+}
+
+
